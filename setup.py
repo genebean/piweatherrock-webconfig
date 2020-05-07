@@ -27,7 +27,7 @@ if __name__ == "__main__":
         packages=find_namespace_packages(include=['piweatherrock.*']),
         include_package_data=True,
         install_requires=parse_requirements("requirements.txt"),
-        python_requires=">=3.7",
+        python_requires=">=3.6",
         scripts=["scripts/pwr-webconfig"],
         description="Provides a web interface for configuring PiWeatherRock",
         long_description=long_description,
