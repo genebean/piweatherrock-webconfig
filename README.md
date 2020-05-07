@@ -25,6 +25,7 @@ The code for this was contributed by [@metaMMA](https://github.com/metaMMA). It 
 
 - edit `version.py` according to the types of changes made
 - `python3 setup.py sdist bdist_wheel`
+- `tar tzf dist/piweatherrock-*.tar.gz`
 - `twine check dist/*`
 - [optional] `twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
 - `twine upload dist/*`
